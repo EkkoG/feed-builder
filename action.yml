@@ -1,0 +1,10 @@
+name: "OpenWrt SDK"
+description: "Build OpenWrt packages via the SDK"
+author: aparcar
+runs:
+  using: 'composite'
+  steps:
+    - name: Check
+      shell: bash
+      run: |
+        ./feed_build.sh
