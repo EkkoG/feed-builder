@@ -1,4 +1,3 @@
-#!/bin/bash -e
 get_latest_release() {
     url=https://api.github.com/repos/$1/releases?per_page=1
     curl $url | grep tag_name | cut -d '"' -f 4
