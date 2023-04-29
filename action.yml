@@ -1,6 +1,6 @@
-name: "OpenWrt SDK"
-description: "Build OpenWrt packages via the SDK"
-author: aparcar
+name: "OpenWrt Feed Bulder"
+description: "Build a OpenWrt feed with config"
+author: ekkog
 runs:
   using: 'composite'
   steps:
